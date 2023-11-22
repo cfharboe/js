@@ -51,7 +51,7 @@ let total;
 total = (Number(km)*0.20) + (Number(dias)*90);
 alert('Valor total a pagar' +total);*/
 
-let dkm = prompt ("Digite a distância percorrida");
+/*let dkm = prompt ("Digite a distância percorrida");
 
 let rs = prompt ("Preço da passagem");
 
@@ -62,7 +62,26 @@ if(dkm <= 200){
 }else{
     multi = Number (dkm)*0.45;
 }
-    alert("Total a pagar:" +multi)
+    alert("Total a pagar:" +multi)*/
+
+    
+    /*let nota1 = prompt("Digite a nota:");
+    let nota2 = prompt("Digite a outra nota:");
+    let media;
+
+    media = (Number (nota1) + Number (nota2)) /2;
+
+    if(media >=5 && media<7){
+      
+        alert ("Recuperação")
+    }else if(media <=4.9){
+    
+        alert ("Reprovado")
+    }else{
+        alert ("Aprovado")
+    }
+    
+    alert('O resultado é: ' +media)*/
 
 
-
+    
