@@ -83,5 +83,102 @@ if(dkm <= 200){
     
     alert('O resultado é: ' +media)*/
 
+/*let nome = prompt ("digite seu nome")
+let sal = prompt ("digite seu salario")
+let temp = prompt ("digite há quantos anos você trabalha")
+let conv, salf;
 
-    
+if (temp <=3){
+    conv = Number (sal) *0.03;
+}
+else if (temp >3 && temp<= 10){
+    conv = Number (sal) *0.125;
+}
+else{
+    conv = Number(sal) * 0.2;
+}
+    salf = Number(conv) + Number(sal);
+alert (nome + "seu salário teve um aumento de: " + conv + "R$" + "e seu novo salário é de:" + salf + "R$");*/
+
+
+/*let larg = prompt("Digite a largura do terreno");
+let comp = prompt("Digite o comprimento do terreno");
+let area;
+
+area = (Number(larg) * Number(comp))
+
+if (area <= 100){
+    alert ("Terreno Popular");
+}else if 
+    (area > 100 && area <= 500){
+    alert ("Terreno Master");
+}else{
+    alert ("Terreno VIP");
+}*/
+
+/*let ativ = prompt ("Digite as horas de atividade");
+let calc = prompt ("Digite o valor");
+let pontos, money
+
+if (ativ <=10){
+    pontos = Number (ativ) *2;
+}
+else if (ativ >10 && ativ <=20){
+    pontos = Number (ativ) *5;
+}
+else {
+    pontos = Number (ativ) *10;
+}
+
+money = Number (pontos) + Number  (0.05);
+
+alert ("Valor ganho");*/
+
+/*let gen = prompt ("Digite o gênero")
+let sal = prompt ("Digite o salário")
+let temp = prompt ("Digite tempo de trabalho")
+let feminino = "f";
+let masculino = "m";
+let novosalario, salf;
+
+if (gen == "f"){
+    if (Number(temp) <=15){
+    novosalario = Number(sal) * 0.05;
+}else if (temp >15 && temp <=20){
+    novosalario = Number(sal) * 0.12;
+}else{
+    novosalario = Number(sal) * 0.23;
+}
+if (gen == "m"){
+    if (Number(temp) <20){
+    novosalario = Number(sal) * 0.03;
+}else if (temp =20 && temp <=30){
+    novosalario = Number(sal) * 0.13;
+}else 
+    novosalario = Number(sal) * 0.25;
+}
+}
+salf = Number (novosalario) + Number(sal);
+
+alert( "O novo salário é: R$" + salf );*/
+
+// let alt = prompt ("Digite sua altura");
+// let peso = prompt ("Digite o seu peso");
+
+// imc = Number(peso) / Number(alt) * Number(alt);
+
+// if (peso <18.5){
+//     alert ("Abaixo do peso");
+// }
+// else if (peso =18.5 && peso <25){
+//     alert ("Peso ideal");
+// }
+// else if (peso >25 && peso <30){
+//     alert ("Sobrepeso");
+// }
+// else if (peso >30 && peso <40){
+//     alert ("Obesidade");
+// }
+// else{
+//     alert ("Obesidade mórbida");
+// }
